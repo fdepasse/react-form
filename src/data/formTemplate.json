@@ -1,0 +1,32 @@
+[
+    {
+      "fieldType": "header",
+      "label": "Payroll Enquiry",
+      "options": [],
+      "isRequired": false
+    },
+    {
+      "fieldType": "select",
+      "label": "What does your enquiry relate to?",
+      "options": [
+        "Incorrect Pay",
+        "Missing Expense",
+        "Change of Bank Details",
+        "Change of Address",
+        "Other"
+      ],
+      "isRequired": true
+    },
+    {
+      "fieldType": "date",
+      "label": "Payroll Enquiry",
+      "options": [],
+      "isRequired": false
+    },
+    {
+      "fieldType": "textbox",
+      "label": "Query",
+      "options": [],
+      "isRequired": true
+    }
+  ]
