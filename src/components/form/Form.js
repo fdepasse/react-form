@@ -25,7 +25,11 @@ export default function Form() {
 
   function handleSubmit(event) {
     event.preventDefault()
-    console.log('Your form has been submitted')
+    console.log(`Your form has been submitted:
+    - Reason for your enquiry: ${inputData['enquiry-reason']}
+    - Date of queried payslip: ${inputData['date']}
+    - Details about your query: ${inputData['query']}
+    `)
   }
 
   function validateRequiredFields() {
