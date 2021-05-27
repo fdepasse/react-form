@@ -3,8 +3,13 @@
   margin: 0;
 }
 
-form {
+body {
   display: flex;
   flex-direction: column;
-  width: 25rem;
+  align-items: center;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
 }

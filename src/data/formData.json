@@ -1,12 +1,14 @@
 [
     {
       "fieldType": "header",
+      "fieldName": "form-header",
       "label": "Payroll Enquiry",
       "options": [],
       "isRequired": false
     },
     {
       "fieldType": "select",
+      "fieldName": "enquiry-reason",
       "label": "What does your enquiry relate to?",
       "options": [
         "Incorrect Pay",
@@ -19,12 +21,14 @@
     },
     {
       "fieldType": "date",
-      "label": "Payroll Enquiry",
+      "fieldName": "date",
+      "label": "Date of payslip being queried (if applicable)",
       "options": [],
       "isRequired": false
     },
     {
-      "fieldType": "textbox",
+      "fieldType": "textarea",
+      "fieldName": "query",
       "label": "Query",
       "options": [],
       "isRequired": true
